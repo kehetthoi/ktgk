@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: #181b23;
+}
+.app {
+  min-height: 100vh;
+  background: #181b23;
+  font-family: 'Inter', Arial, sans-serif;
+}
+.main {
+  padding-bottom: 40px;
+}

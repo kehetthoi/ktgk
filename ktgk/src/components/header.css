@@ -1,0 +1,38 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 60px 0 60px;
+  background: #181b23;
+}
+.header__logo {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.header__nav {
+  display: flex;
+  gap: 40px;
+}
+.header__nav a {
+  color: #b0b3bb;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+  transition: color 0.2s;
+}
+.header__nav a:hover {
+  color: #fff;
+}
+.header__search {
+  background: #232733;
+  border: none;
+  border-radius: 22px;
+  padding: 12px 32px;
+  color: #b0b3bb;
+  font-size: 1rem;
+  outline: none;
+  min-width: 280px;
+  font-family: inherit;
+}

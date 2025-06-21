@@ -1,0 +1,14 @@
+.list {
+  margin: 0 60px;
+}
+.list__title {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+.list__items {
+  display: flex;
+  gap: 28px;
+  align-items: flex-start;
+}
